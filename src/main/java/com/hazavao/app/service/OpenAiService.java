@@ -1,10 +1,10 @@
 package com.hazavao.app.service;
 
+import io.github.cdimascio.dotenv.Dotenv;
 import java.util.*;
 import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import io.github.cdimascio.dotenv.Dotenv;
 
 @Service
 public class OpenAiService {
